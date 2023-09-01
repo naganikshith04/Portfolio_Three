@@ -24,9 +24,7 @@ import threejs from "./tech/threejs.svg";
 import TCS from './company/TCS.png'
 import CPP from './company/CPP.png'
 import S2C from './S2C.png'
-import carrent from "./carrent.png";
 import Pre from "./Pre.jpeg";
-import tripguide from "./tripguide.png";
 
 export {
   logo,
@@ -53,7 +51,5 @@ export {
   TCS,
   CPP,
   S2C,
-  carrent,
   Pre,
-  tripguide,
 };
