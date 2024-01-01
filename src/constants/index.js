@@ -159,7 +159,7 @@ const projects = [
   {
     name: "Snapgram - a insta clone",
     description:
-      "In this project, I utilized deep learning techniques to convert hand-drawn wireframes to HTML code. To accomplish this, I first created a dataset for training and testing purposes. I then used LSTM and CNN algorithms to develop models that could accurately recognize the various elements of the wireframes and convert them into HTML code. By leveraging my expertise in deep learning and web development, I was able to successfully deliver a solution that streamlined the wireframing process and enabled designers to create and modify web pages more efficiently.",
+      "Snapgram is a feature-rich Instagram clone application developed to showcase proficiency in modern web development technologies. Leveraging cutting-edge tools and frameworks, the project offers a comprehensive set of functionalities akin to the popular social media platform, Instagram.Developed an Instagram clone web application with features including feed, posts, likes, comments, user profiles, follows, etc.",
     tags: [
       {
         name: "React - Typescript",
