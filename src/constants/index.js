@@ -21,6 +21,9 @@ import {
   carrent,
   Pre,
   threejs,
+  snap,
+  clt,
+  svit,
 } from "../assets";
 
 export const navLinks = [
@@ -40,7 +43,7 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Frontend Developer",
     icon: web,
   },
   {
@@ -81,6 +84,10 @@ const technologies = [
   {
     name: "Node JS",
     icon: nodejs,
+  },
+  {
+    name: "TypeScript",
+    icon: typescript,
   },
   {
     name: "MongoDB",
@@ -132,35 +139,44 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+      "University of North Carolina at Charlotte",
+    name: "",
+    designation: "Master's degree",
+    company: "Computer Science",
+    image: clt,
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
-  },
-  {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+      "Swami Vivekananda Institute of Technology",
+    name: "",
+    designation: "Bachelor's",
+    company: "Information Technology",
+    image: svit,
   },
 ];
 
 const projects = [
   {
+    name: "Snapgram - a insta clone",
+    description:
+      "In this project, I utilized deep learning techniques to convert hand-drawn wireframes to HTML code. To accomplish this, I first created a dataset for training and testing purposes. I then used LSTM and CNN algorithms to develop models that could accurately recognize the various elements of the wireframes and convert them into HTML code. By leveraging my expertise in deep learning and web development, I was able to successfully deliver a solution that streamlined the wireframing process and enabled designers to create and modify web pages more efficiently.",
+    tags: [
+      {
+        name: "React - Typescript",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Appwrite",
+        color: "green-text-gradient",
+      },
+    ],
+    image: snap,
+    source_code_link: "https://snapgram-lovat.vercel.app/",
+  },
+  {
     name: "Converting hand drawn wireframes to HTML code",
     description:
-      "{In this project, I utilized deep learning techniques to convert hand-drawn wireframes to HTML code. To accomplish this, I first created a dataset for training and testing purposes. I then used LSTM and CNN algorithms to develop models that could accurately recognize the various elements of the wireframes and convert them into HTML code. By leveraging my expertise in deep learning and web development, I was able to successfully deliver a solution that streamlined the wireframing process and enabled designers to create and modify web pages more efficiently.",
+      "In this project, I utilized deep learning techniques to convert hand-drawn wireframes to HTML code. To accomplish this, I first created a dataset for training and testing purposes. I then used LSTM and CNN algorithms to develop models that could accurately recognize the various elements of the wireframes and convert them into HTML code. By leveraging my expertise in deep learning and web development, I was able to successfully deliver a solution that streamlined the wireframing process and enabled designers to create and modify web pages more efficiently.",
     tags: [
       {
         name: "Deep Learning",
@@ -193,7 +209,7 @@ const projects = [
       },
     ],
     image: Pre,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/naganikshith04/face_rec",
   },
 ];
 

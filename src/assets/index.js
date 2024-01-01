@@ -20,11 +20,15 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
-
+import carrent from './carrent.png'
 import TCS from './company/TCS.png'
 import CPP from './company/CPP.png'
 import S2C from './S2C.png'
 import Pre from "./Pre.jpeg";
+import snap from './snapgram.png'
+import vercel from './vercel.png'
+import clt from './charlotte.jpg'
+import svit from './svit.png'
 
 export {
   logo,
@@ -52,4 +56,9 @@ export {
   CPP,
   S2C,
   Pre,
+  carrent,
+  vercel,
+  snap,
+  clt,
+  svit
 };
